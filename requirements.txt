@@ -1,0 +1,6 @@
+flask
+pdfplumber
+spacy
+scikit-learn
+sentence-transformers
+werkzeug
