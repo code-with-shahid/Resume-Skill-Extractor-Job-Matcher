@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Software Engineer Intern",
+    "company": "Google",
+    "description": "We are looking for interns with experience in Python, machine learning, data analysis, and cloud technologies like GCP."
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Amazon",
+    "description": "You should be comfortable with SQL, Python, pandas, numpy, and basic knowledge of ML algorithms."
+  },
+  {
+    "title": "Frontend Developer Intern",
+    "company": "Microsoft",
+    "description": "Proficiency in HTML, CSS, JavaScript, React.js and modern UI frameworks is required. Bonus if you know Flask."
+  },
+  {
+    "title": "AI/ML Research Intern",
+    "company": "Meta",
+    "description": "Strong understanding of deep learning, NLP, PyTorch or TensorFlow. Research background preferred."
+  }
+]
