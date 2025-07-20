@@ -6,7 +6,6 @@ import json
 import os
 
 app = Flask(__name__)
-import os
 app.secret_key = os.environ.get("SECRET_KEY", "fallback-dev-secret")
 app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -80,8 +79,5 @@ def upload_resume():
                            user=get_current_user())
 
 if __name__ == '__main__':
-    import os
-    # Use Render's recommended host and port
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-
