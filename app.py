@@ -6,7 +6,8 @@ import json
 import os
 
 app = Flask(__name__)
-app.secret_key = 'your-secret-key'  # Change this in production!
+import os
+app.secret_key = os.environ.get("SECRET_KEY", "fallback-dev-secret")
 app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
