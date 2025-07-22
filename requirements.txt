@@ -1,8 +1,7 @@
-flask
+Flask
+Werkzeug
 gunicorn
-pdfplumber
-spacy
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+pdfminer.six
+nltk
 scikit-learn
-sentence-transformers
-werkzeug
+spacy
